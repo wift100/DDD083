@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+color: rgb(169, 23, 23);
+    text-align: center;
+    background-color: rgb(4, 11, 11);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 18px;
+    
+   
+}
+.top{
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+nav{
+    background-color: rgb(4, 11, 11);
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color:rgb(221, 167, 167);
+    text-decoration: none;
+    padding: 15PX;
+    
+}
+nav li a:hover{
+    background-color: rgb(20, 220, 173);
+}
+.dropdown-menu{
+    position:absolute;
+    color: black;
+    box-shadow: 0 0 2px black;
+   display: none;
+}
+.dropdown-menu a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
